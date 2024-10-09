@@ -7,4 +7,4 @@ FROM (
 JOIN hackers ON hackers.hacker_id=subquery.hacker_id
 WHERE score > 0
 GROUP BY hackers.hacker_id
-ORDER BY total_score DESC, hackers.hacker_id ASC
+ORDER BY total_score DESC, hackers.hacker_id ASC;

@@ -13,4 +13,4 @@ OR cte.hacker_id IN(
     GROUP BY challenges_created
     HAVING COUNT(challenges_created) = 1
 )
-ORDER BY cte.challenges_created DESC, cte.hacker_id ASC
+ORDER BY cte.challenges_created DESC, cte.hacker_id ASC;
